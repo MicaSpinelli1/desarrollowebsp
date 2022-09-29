@@ -1,0 +1,396 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+
+.contenedor {
+  padding: 70px 0;
+  width: 90%;
+  margin: auto;
+  max-width: 1500px;
+  overflow: hidden;
+}
+.titulo {
+  color: darkviolet;
+  font-size: 30px;
+  text-align: center;
+  margin-bottom: 60px;
+}
+
+a {
+  color: blueviolet;
+  font-weight: 300;
+  text-decoration: none;
+  margin-right: 10px;
+  list-style: none;
+}
+
+/* inicio diseño header */
+.main-header {
+  width: 100%;
+  height: 50px;
+  background-color: rgb(225, 210, 243);
+  position: fixed;
+  padding: 25px 0 25px 0px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.main-header .logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-size: 30px;
+  color: darkviolet;
+  font-weight: bold;
+  padding: 0 10px;
+  line-height: 8px;
+}
+/* fin diseño header */
+/* incio diseño boton CTA */
+h1 {
+  font-size: 22px;
+  margin: 25px;
+}
+
+button {
+  font-size: 20px;
+  font-weight: bold;
+  border-radius: 6px;
+  padding: 5px 10px;
+  border: 1px solid rgba(0, 0, 0, 0.5);
+  box-shadow: 2px 2px 10px rgba(0, 0, 0, 0.5);
+  color: rgb(235, 235, 235);
+  background-color: blueviolet;
+  text-align: center;
+}
+
+button:hover {
+  background-color: rgb(134, 84, 180);
+  transition: 0.3s;
+}
+
+#hero {
+  text-align: center;
+  width: 100%;
+  height: 90%;
+  color: rgb(236, 226, 248);
+  border: medium black;
+  background-color: rgba(0, 0, 0, 0.5);
+  background-image: url("../imag/portada2.jpg");
+  background-blend-mode: overlay;
+  background-size: cover;
+  background-attachment: fixed;
+  padding: 20%;
+}
+/* fin diseño boton CTA */
+
+/* inicio diseño tu pagina web */
+
+.pagina-web {
+  background-color: rgb(235, 235, 235);
+  width: 100%;
+}
+.contenedor-pagina-web {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+.pagina-web img {
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+}
+
+.pagina-web .contenido-textos {
+  width: 90%;
+  padding: 25px 0;
+}
+.contenido-textos h3 {
+  margin-bottom: 15px;
+  margin-top: 20px;
+  font-size: 15;
+}
+.contenido-textos h3 span {
+  background: blueviolet;
+  color: rgb(245, 245, 245);
+  border-radius: 50%;
+  display: inline-block;
+  text-align: center;
+  width: 30px;
+  height: 30px;
+  padding: 0px;
+  margin-right: 5px;
+  font-size: 23px;
+}
+
+.contenido-textos p {
+  padding: 0px 10px 30px 10px;
+  text-align: justify;
+}
+/* fin diseño tu pagina web */
+
+/* inicio diseño nuestros clientes */
+h4 {
+  font-size: 25px;
+}
+
+.nuestros-clientes {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+}
+
+.cards {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+}
+
+.cards .card {
+  background: blueviolet;
+  display: flex;
+  flex-direction: row;
+  width: 90%;
+  height: 200px;
+  align-items: center;
+  justify-content: space-evenly;
+  border-radius: 20px;
+  box-shadow: 0 0 8px 0 rgba(0, 0, 0, 0.5);
+  margin: 10px 0;
+}
+
+.cards .card img {
+  width: 100px;
+  height: 100px;
+  object-fit: cover;
+  border: 3px solid rgb(245, 245, 245);
+  border-radius: 50%;
+  display: block;
+  margin: 3%;
+}
+
+.contenido-texto-card {
+  width: 60%;
+  color: rgb(235, 235, 235);
+  margin-right: 5%;
+  font-size: 16px;
+}
+
+.contenido-texto-card p {
+  margin-top: 5px;
+}
+/* fin diseño nuestros clientes */
+
+/* inicio diseño footer */
+.contenido-footer {
+  display: flex;
+  width: 100%;
+  background-color: rgb(225, 210, 243);
+  flex-direction: column;
+}
+
+.main-foo {
+  width: 100%;
+  max-width: 1500px;
+  margin: auto;
+  display: flex;
+  flex-direction: column;
+  padding: 20px;
+}
+
+.menu-foo ul {
+  list-style: none;
+}
+
+.contenido-footer .logo {
+  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande",
+    "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  margin: 100;
+  padding: 25px 10px;
+  font-size: 30px;
+  color: darkviolet;
+  font-weight: bold;
+}
+
+.fin {
+  background-color: rgb(215, 184, 253);
+  padding: 15px 10px;
+  text-align: center;
+  color: blueviolet;
+}
+
+/* fin diseño footer */
+/* inicio diseño nuestros servicios */
+.nuestros-servicios {
+  background-color: rgb(245, 245, 245);
+  width: 100%;
+}
+
+.nuestros-servicios h1 {
+  color: darkviolet;
+  padding: 30px 0;
+  text-align: center;
+  background-color: rgb(225, 210, 243);
+}
+
+.carts {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-evenly;
+  align-items: center;
+  border-radius: 10px;
+  padding: 70px;
+}
+
+.carts .cart {
+  display: flex;
+  width: 125%;
+  height: 450px;
+  align-items: center;
+  justify-content: space-evenly;
+  flex-direction: column;
+  background: rgba(210, 186, 223, 0.712);
+  border-radius: 15px;
+  box-shadow: 0 0 6px 0 rgba(0, 0, 0, 0.5);
+  border: 3px;
+  margin-bottom: 20px;
+}
+
+.cart img {
+  width: 140px;
+  height: 140px;
+}
+
+.cart p {
+  width: 300px;
+  text-align: center;
+}
+
+@media (min-width: 992px) {
+  /* inicio diseño header */
+  .main-header {
+    padding: 25px 0 25px 35px;
+  }
+
+  .main-header-menu {
+    display: block;
+    display: flex;
+    margin-right: 40px;
+    justify-content: space-around;
+    align-items: center;
+  }
+
+  .menu-item {
+    font-size: 15px;
+    margin: 0 30px;
+    line-height: 8px;
+    text-transform: uppercase;
+    width: max-content;
+  }
+
+  .item-link {
+    padding: 8px 12px;
+    border-radius: 5px;
+  }
+
+  .item-link:hover {
+    background-color: rgba(143, 71, 143, 0.562);
+    transition: 0.5s;
+  }
+
+  .submenu {
+    position: absolute;
+    background: rgb(235, 235, 235);
+    display: none;
+    border-radius: 5px;
+  }
+
+  .submenu li a {
+    display: block;
+    padding: 15px;
+    color: darkviolet;
+  }
+
+  .menu li:hover .submenu {
+    display: block;
+  }
+
+  .main-header .logo {
+    padding: 0 40px;
+  }
+  /* fin diseño header */
+
+  /* incio diseño boton CTA */
+  h1 {
+    font-size: 50px;
+    padding: 10px;
+  }
+  /* fin diseño boton CTA */
+
+  /* inicio diseño tu pagina web */
+  .contenedor-pagina-web {
+    flex-direction: row;
+  }
+
+  .pagina-web .contenido-textos {
+    width: 35%;
+  }
+
+  .contenido-textos p {
+    padding: 0px 0px 30px 50px;
+  }
+  /* fin diseño tu pagina web */
+
+  /* inicio diseño nuestros clientes */
+  h4 {
+    font-size: 20px;
+  }
+
+  .cards {
+    flex-direction: row;
+  }
+
+  .cards .card {
+    width: 45%;
+  }
+
+  .contenido-texto-card {
+    font-size: 16px;
+  }
+
+  /* fin diseño nuestros clientes */
+
+  /* inicio diseño footer */
+
+  .main-foo {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    padding: 20px;
+  }
+  /* fin diseño footer */
+
+  /* inicio diseño nuestros servicios */
+
+  .carts {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+    align-items: center;
+    border-radius: 10px;
+    padding: 70px;
+  }
+  .carts .cart {
+    width: 30%;
+  }
+
+  .cart img {
+    width: 140px;
+    height: 140px;
+  }
+
+  .cart p {
+    width: 300px;
+    text-align: center;
+  }
+  /* fin diseño nuestros servicios */
+}
