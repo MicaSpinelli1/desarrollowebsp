@@ -77,7 +77,7 @@ button:hover {
   color: rgb(236, 226, 248);
   border: medium black;
   background-color: rgba(0, 0, 0, 0.5);
-  background-image: url("../imag/portada2.jpg");
+  background-image: url("../imag/portadacelu.jpg");
   background-blend-mode: overlay;
   background-size: cover;
   background-attachment: fixed;
@@ -325,6 +325,11 @@ h4 {
     font-size: 50px;
     padding: 10px;
   }
+
+  #hero {
+    background-image: url("../imag/portada2.jpg");
+  }
+  
   /* fin diseño boton CTA */
 
   /* inicio diseño tu pagina web */
